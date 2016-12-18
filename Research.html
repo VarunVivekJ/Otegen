@@ -9,33 +9,198 @@
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css"><!-- load animate -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="http://fonts.googleapis.com/css?family=Molle" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Tangerine:b,bi|Montserrat|Lato|Dancing+Script|Mirza|Roboto|Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:b|Akronim|Glass+Antiqua' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|canvas-print' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="home.css" rel="stylesheet" />
+    <!--<link href="home.css" rel="stylesheet" />-->
     <style>
         body {
-            background: url('images/bck2.jpg') no-repeat fixed;
+            background: url('images/bck7.jpg') no-repeat fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
-            color: #424242;
         }
+
+        .navbar {
+            margin-bottom: 0;
+            background-color: teal;
+            z-index: 9999;
+            border: 0;
+            font-size: 12px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 1px;
+            border-radius: 0;
+            opacity: 0.7;
+        }
+
+            .nav li a, .navbar .navbar-brand {
+                color: #fff !important;
+                font-weight: bold;
+                font-family: Roboto;
+            }
+
+
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: #f4511e !important;
+            background-color: #fff !important;
+        }
+
+        .navbar-default .navbar-toggle {
+            border-color: transparent;
+            color: #fff !important;
+        }
+
+        .navbar .dropdown #dropmenu {
+            background-color: teal;
+            font-family: Montserrat, sans-serif;
+        }
+
+        .caret-up {
+            width: 0;
+            height: 0;
+            border-left: 4px solid rgba(0, 0, 0, 0);
+            border-right: 4px solid rgba(0, 0, 0, 0);
+            border-bottom: 4px solid;
+            display: inline-block;
+            margin-left: 2px;
+            vertical-align: middle;
+        }
+
+        #heading{
+            font-size:72px; 
+            text-align:center; 
+            color:#fff;
+            border-radius:15px;
+        }
+
+        #body{
+            background-color:#000;
+            height:650px;
+            width:1200px;
+            margin-left:200px;
+            margin-top:80px;
+            opacity:0.8;
+            border-radius:15px;
+        }
+
+        .content p{
+            color:#fff;
+            margin-left:20px;
+            margin-top:30px;
+            font-family: Cabin Sketch;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+         .content ul li{
+            color:#fff;            
+            font-family: Glass Antiqua;
+            font-size:20px;
+            margin:-10px 0;
+            margin-left:30px;
+        }
+
     </style>
 
 </head>
-<body>
+<body id="mypage2">
 
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#myPage">
+                    Otegen
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right navbar-main-collapse">
+                    <li class="dropdown" style="color:teal;">
+                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret" style="color:white"></b></a>
+                        <ul class="dropdown-menu" id="dropmenu">
+                            <li><a href="#mission">Mission</a></li>
+                            <li><a href="#commit">Commitment</a></li>
+                            <li><a href="#manage">Management</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">RESEARCH AND DEVELOPMENT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">TERMS AND CONDITIONS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!--<div class="font-effect-canvas-print" id="heading"> Research And Development</div>-->
+
+    <div id="body">
+        <div class="container-fluid" style="background-color:gray; border-radius:15px 15px 0 0;">
+            <div class="font-effect-canvas-print" id="heading"> Research And Development</div>
+        </div>
+        <div class="content">
+            <p>Otegen Strictly follows GMP norms. The basic on premise in which OTEGEN’s R&D activity is on, are as follow:</p>           
+                <ul>
+                    <li>Authenticity and quality of raw materials.</li>
+                    <li>Manufacturing standards as per GMP</li>
+                    <li>Quality Control of the manufactured drug</li>
+                    <li>Lot of emphasis on hygiene, equipments and documentation etc.</li>
+                </ul>              
+            
+            <p>As per the Global GMP norms, OTEGEN is continuously working on the R & D improvement, specially at the level of:</p>
+            <ul>
+                <li>
+                    Raw material, Excipients, packing material, intermediate product, finished products and its stability and
+                    microbiological testing.
+                </li>
+                <li>
+                    OTEGEN R & D equipped with all the major instruments and analytical equipments to undertake the following in house testing
+                    and analysis at different stages.
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <!--Loading the JavaScript files at the end to reduce load time of website-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="jquery.fadethis.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(".slideanim").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+
+        $(function () {
+            $(".dropdown").hover(
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).fadeIn("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).toggleClass("caret caret-up");
+                    },
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).fadeOut("fast");
+                        $(this).toggleClass('open');
+                        $('b', this).toggleClass("caret caret-up");
+                    });
+        });
+    </script>
 </body>
-</html>
+</html>-->
