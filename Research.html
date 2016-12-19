@@ -58,6 +58,11 @@
             font-family: Montserrat, sans-serif;
         }
 
+        .navbar-default .navbar-nav > .dropdown > a .caret {
+            border-top-color: #fff;
+            border-bottom-color: #fff;
+        }
+
         .caret-up {
             width: 0;
             height: 0;
@@ -69,40 +74,51 @@
             vertical-align: middle;
         }
 
-        #heading{
-            font-size:72px; 
-            text-align:center; 
-            color:#fff;
-            border-radius:15px;
+        #heading {
+            font-size: 72px;
+            text-align: center;
+            color: #fff;
+            border-radius: 15px;
         }
 
-        #body{
-            background-color:#000;
-            height:650px;
-            width:1200px;
-            margin-left:200px;
-            margin-top:80px;
-            opacity:0.8;
-            border-radius:15px;
+        #body {
+            background-color: #000;
+            height: 950px;
+            width: 1200px;
+            margin-left: 200px;
+            margin-top: 80px;
+            opacity: 0.8;
+            border-radius: 15px;
         }
 
-        .content p{
-            color:#fff;
-            margin-left:20px;
-            margin-top:30px;
+        .content p, .content h2 {
+            color: teal;
+            margin-left: 20px;
+            margin-top: 30px;
             font-family: Cabin Sketch;
-            font-size:22px;
-            font-weight:bold;
+            font-size: 22px;
+            font-weight: bold;
         }
 
-         .content ul li{
-            color:#fff;            
+        .content h5 {
+            color: #fff;
             font-family: Glass Antiqua;
-            font-size:20px;
-            margin:-10px 0;
-            margin-left:30px;
+            font-size: 20px;
+            margin: -10px 0;
+            margin-left: 30px;
         }
 
+        .content ul li {
+            color: #fff;
+            font-family: Glass Antiqua;
+            font-size: 20px;
+            margin: -10px 0;
+            margin-left: 30px;
+        }
+
+        i {
+            color: teal;
+        }
     </style>
 
 </head>
@@ -123,15 +139,23 @@
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right navbar-main-collapse">
                     <li class="dropdown" style="color:teal;">
-                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret" style="color:white"></b></a>
+                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret red"></b></a>
                         <ul class="dropdown-menu" id="dropmenu">
                             <li><a href="#mission">Mission</a></li>
                             <li><a href="#commit">Commitment</a></li>
                             <li><a href="#manage">Management</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">RESEARCH AND DEVELOPMENT</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="Research.html">RESEARCH AND DEVELOPMENT</a></li>
+                    <li class="dropdown" style="color:teal;">
+                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">OUR PRODUCTS <b class="caret red"></b></a>
+                        <ul class="dropdown-menu" id="dropmenu">
+                            <li><a href="#">Ayurvedic Medicines/Dietary Supplement</a></li>
+                            <li><a href="#">Single Herbs</a></li>
+                            <li><a href="#">Other Products</a></li>
+                        </ul>
+                    </li>
+                   
                     <li><a href="#">TERMS AND CONDITIONS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
@@ -146,25 +170,47 @@
             <div class="font-effect-canvas-print" id="heading"> Research And Development</div>
         </div>
         <div class="content">
-            <p>Otegen Strictly follows GMP norms. The basic on premise in which OTEGEN’s R&D activity is on, are as follow:</p>           
-                <ul>
-                    <li>Authenticity and quality of raw materials.</li>
-                    <li>Manufacturing standards as per GMP</li>
-                    <li>Quality Control of the manufactured drug</li>
-                    <li>Lot of emphasis on hygiene, equipments and documentation etc.</li>
-                </ul>              
-            
-            <p>As per the Global GMP norms, OTEGEN is continuously working on the R & D improvement, specially at the level of:</p>
-            <ul>
-                <li>
-                    Raw material, Excipients, packing material, intermediate product, finished products and its stability and
-                    microbiological testing.
-                </li>
-                <li>
-                    OTEGEN R & D equipped with all the major instruments and analytical equipments to undertake the following in house testing
-                    and analysis at different stages.
-                </li>
+            <p>Otegen Strictly follows GMP norms. The basic on premise in which OTEGEN’s R&D activity is on, are as follow:</p>
+            <ul style="list-style-type: none;">
+                <li><i class="glyphicon glyphicon-ok"></i> Authenticity and quality of raw materials.</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Manufacturing standards as per GMP</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Quality Control of the manufactured drug</li>
+                <li><i class="glyphicon glyphicon-ok"></i> Lot of emphasis on hygiene, equipments and documentation etc.</li>
             </ul>
+
+            <p>As per the Global GMP norms, OTEGEN is continuously working on the R & D improvement, specially at the level of:</p>
+            <h5>
+                Raw material, Excipients, packing material, intermediate product, finished products and its stability and
+                microbiological testing.
+            </h5><br />
+            <h5>
+                OTEGEN R & D equipped with all the major instruments and analytical equipments to undertake the following in house testing
+                and analysis at different stages.
+            </h5>
+            <h2>Raw Materials</h2>
+            <ul style="list-style-type:none">
+                <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Raw material analysis.</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Identification of foreign material.</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Extractive value of water and extractive Alcohol Soluble ingredients.</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Ash Values Acid insoluble Ash content</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Estimation of volatile oil. And PH Value</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Moisture Content.
+            </ul>
+            <h2>Finished Products</h2>
+            <ul style="list-style-type:none">
+                <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Uniformity of the weight of the Capsule.</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Total ash conent.</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Acid insoluble Ash</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Alcohol and water extractive value</li>
+                <li><i class="glyphicon glyphicon-plus-sign"></i> Disintegration time of the Cap.</li>.
+            </ul>
+            <h5>
+                <span style="font-family: Cabin Sketch; color:teal;">Micro</span> – biological and fungal testing done of the raw material and finished products.
+            </h5><br />
+            <h5>
+                Otegen Global Incorporation R & D is fully equipped with the latest equipment like Incubator, Autoclave, TLC Kit, Oven,
+                Bulk density, Muffle Furnace, Moisture Balance, PH meter and B.O.D to name of few.
+            </h5>
         </div>
     </div>
 
