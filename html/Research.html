@@ -4,7 +4,7 @@
     <title>Otegen - Health and Wellness is what we promise</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/logo-1.png">
+    <link rel="shortcut icon" href="../images/logo-1.png">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css"><!-- load animate -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -13,65 +13,15 @@
     <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch:b|Akronim|Glass+Antiqua' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple|canvas-print' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!--<link href="home.css" rel="stylesheet" />-->
+    <link href="../css/otegen.css" rel="stylesheet" />
     <style>
         body {
-            background: url('images/bck7.jpg') no-repeat fixed;
+            background: url('../images/bck7.jpg') no-repeat fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             font: 400 15px Lato, sans-serif;
             line-height: 1.8;
-        }
-
-        .navbar {
-            margin-bottom: 0;
-            background-color: teal;
-            z-index: 9999;
-            border: 0;
-            font-size: 12px !important;
-            line-height: 1.42857143 !important;
-            letter-spacing: 1px;
-            border-radius: 0;
-            opacity: 0.7;
-        }
-
-            .nav li a, .navbar .navbar-brand {
-                color: #fff !important;
-                font-weight: bold;
-                font-family: Roboto;
-            }
-
-
-        .navbar-nav li a:hover, .navbar-nav li.active a {
-            color: #f4511e !important;
-            background-color: #fff !important;
-        }
-
-        .navbar-default .navbar-toggle {
-            border-color: transparent;
-            color: #fff !important;
-        }
-
-        .navbar .dropdown #dropmenu {
-            background-color: teal;
-            font-family: Montserrat, sans-serif;
-        }
-
-        .navbar-default .navbar-nav > .dropdown > a .caret {
-            border-top-color: #fff;
-            border-bottom-color: #fff;
-        }
-
-        .caret-up {
-            width: 0;
-            height: 0;
-            border-left: 4px solid rgba(0, 0, 0, 0);
-            border-right: 4px solid rgba(0, 0, 0, 0);
-            border-bottom: 4px solid;
-            display: inline-block;
-            margin-left: 2px;
-            vertical-align: middle;
         }
 
         #heading {
@@ -84,7 +34,7 @@
         #body {
             background-color: #000;
             height: 950px;
-            width: 1200px;
+            width: 1180px;
             margin-left: 200px;
             margin-top: 80px;
             opacity: 0.8;
@@ -119,11 +69,13 @@
         i {
             color: teal;
         }
+        .designby {
+    height: 30px;
+}
     </style>
 
 </head>
-<body id="mypage2">
-
+<body id="mypage2" data-target=".navbar" data-offset="60">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -138,6 +90,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right navbar-main-collapse">
+                    <li><a href="html/Home.html">Home</a></li>
                     <li class="dropdown" style="color:teal;">
                         <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret red"></b></a>
                         <ul class="dropdown-menu" id="dropmenu">
@@ -145,8 +98,7 @@
                             <li><a href="#commit">Commitment</a></li>
                             <li><a href="#manage">Management</a></li>
                         </ul>
-                    </li>
-                    <li><a href="Research.html">RESEARCH AND DEVELOPMENT</a></li>
+                    </li>                   
                     <li class="dropdown" style="color:teal;">
                         <a href="#about" class="dropdown-toggle" data-toggle="dropdown">OUR PRODUCTS <b class="caret red"></b></a>
                         <ul class="dropdown-menu" id="dropmenu">
@@ -155,7 +107,7 @@
                             <li><a href="#">Other Products</a></li>
                         </ul>
                     </li>
-                   
+
                     <li><a href="#">TERMS AND CONDITIONS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
@@ -214,6 +166,30 @@
         </div>
     </div>
 
+    <!-- Container (Footer Section) -->
+    <br /><br/>
+    <div class="text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="#mypage2" title="To Top">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
+                </a>
+                <h5 align="center" style="font-family:Roboto; color:black; font-weight:400; font-size:18px;">Copyright &copy; Otegen Health Services  </h5>
+                <div class="social-network social-circle" align="center">
+                    <a href="www.linkedin.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                    <!--<a href="www.twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>-->
+                    <a href="www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                    <!--<a href="www.instagram.com" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-center designby bg-grey">
+        <div class="row">
+            <p>Website Designed By <a href="" title="Visit Our page">Visit US</a></p>
+        </div>
+    </div>
+
     <!--Loading the JavaScript files at the end to reduce load time of website-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -222,6 +198,29 @@
 
     <script>
         $(document).ready(function () {
+
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, div a[href='#mypage2'], div a[href='#contact']").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
             $(window).scroll(function () {
                 $(".slideanim").each(function () {
                     var pos = $(this).offset().top;

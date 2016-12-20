@@ -86,20 +86,15 @@ h4 {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #fff;
-    border-bottom-color: #fff;
-}
+            border-top-color: #fff;
+            border-bottom-color: #fff;
+        }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:focus,
-.navbar-default .navbar-nav > .open > a:hover {
-    color: #f4511e;
-    background-color: rgb(9, 136, 136);
-}
-
-.navbar-nav #dropmenu{
-    background-color:teal;
-}
+navbar-default .navbar-nav>.open>.a
+     {
+          color: #f4511e !important;
+    background-color: #fff !important;
+     }
 
 .jumbotron {
     background-color: #338386;
@@ -247,7 +242,7 @@ footer {
 
 #myNavbar {
     font-family: 'High Tower Text';
-    width: 1140px;
+    width:1140px;
 }
 
 .caret-up {
@@ -261,18 +256,23 @@ footer {
     vertical-align: middle;
 }
 
+.navbar .dropdown #dropmenu {
+    background-color: teal;
+    font-family: Montserrat, sans-serif;
+}
+
 .touch {
     color: white;
     background-color: teal;
     border-color: teal;
 }
 
-/*hr {
+hr {
     width: 1800px;
     border-color: #808080;
     background-color: #808080;
     color: #808080;
-}*/
+}
 
 .social-network a.icoFacebook:hover i,
 .social-network a.icoInstagram:hover i,
@@ -373,32 +373,29 @@ footer {
     opacity: 1;
 }
 
-
-.modal-dialog {
-    right: 10px;
-    left: 10px;
-    width: 600px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        right: 10px;
+        left: 10px;
+        width: 600px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
-.modal-content {
-    background-color: teal;
-    color: #fff;
-}
+@media screen and (min-width: 768px) {
+    .modal-content {
+        background-color: teal;
+        color: #fff;
+    }
 
-.modal-header h3 {
-    text-align: center;
-}
+    .modal-header h3 {
+        text-align: center;
+    }
 
-.modal-header img {
-    margin-left: 220px;
-    height: 20%;
-    width: 20%;
-}
-
-#googleMap{
-    height:400px;
-    width:80%; 
-    margin-left:150px;
+    .modal-header img {
+        margin-left: 220px;
+        height: 20%;
+        width: 20%;
+    }
 }
