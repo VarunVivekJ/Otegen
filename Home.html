@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Otegen - Health and Wellness is what we promise</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />  
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" href="images/logo-1.png">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css"><!-- load animate -->
@@ -20,7 +20,8 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle Naviagtion </span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -29,19 +30,28 @@
                     Otegen
                 </a>
             </div>
-            
+
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right navbar-main-collapse">
                     <li class="dropdown" style="color:teal;">
-                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret" style="color:white"></b></a>
-                        <ul class="dropdown-menu" id="dropmenu">
+                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="dropmenu" role="menu">
                             <li><a href="#Portfolio">Mission</a></li>
                             <li><a href="#Portfolio">Commitment</a></li>
                             <li><a href="#Portfolio">Management</a></li>
                         </ul>
                     </li>
                     <li><a href="#">RESEARCH AND DEVELOPMENT</a></li>
-                    <li><a href="#">PRODUCTS</a></li>
+
+                    <li class="dropdown" style="color:teal;">
+                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">OUR PRODUCTS <b class="caret red"></b></a>
+                        <ul class="dropdown-menu" id="dropmenu">
+                            <li><a href="#">Ayurvedic Medicines/Dietary Supplement</a></li>
+                            <li><a href="#">Single Herbs</a></li>
+                            <li><a href="#">Other Products</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="#">TERMS AND CONDITIONS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
@@ -172,7 +182,7 @@
                     <button class="btn btn-primary" data-toggle="modal" data-target="#modal-3">Click Here</button>
                 </div>
             </div>
-        </div>        
+        </div>
     </div>
 
     <!--Modal effects-->
@@ -180,8 +190,8 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                        <img src="images/mission.png" />
-                        <h3>Mission</h3>
+                    <img src="images/mission.png" />
+                    <h3>Mission</h3>
                 </div>
                 <div class="modal-body">
                     <p>
@@ -205,13 +215,13 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                        <img src="images/commitment.png" />
-                        <h3>Commitment</h3>
+                    <img src="images/commitment.png" />
+                    <h3>Commitment</h3>
                 </div>
                 <div class="modal-body">
                     <p>
-                        To popularize the 5000 year old system of medicine viz. Ayurveda effectively among the population for their 
-                        benefit by preserving natural effects of rare herbs as per ancient texts & scriptures without altering basics 
+                        To popularize the 5000 year old system of medicine viz. Ayurveda effectively among the population for their
+                        benefit by preserving natural effects of rare herbs as per ancient texts & scriptures without altering basics
                         but ENCAPSULATING.
                     </p>
                 </div>
@@ -231,10 +241,10 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        OTEGEN has well qualified, experienced and dedicated professional in all areas including Manufacturing 
-                        & Marketing of its products throughout India, under the dynamic leadership of its MD Mr. Daya Shankar 
-                        Mishra, who is also a partner of the company and actively involved all- round company affaires. OTEGEN 
-                        GLOBAL INCORPORATION has at their command a large team of sales Personnel also to promote their products 
+                        OTEGEN has well qualified, experienced and dedicated professional in all areas including Manufacturing
+                        & Marketing of its products throughout India, under the dynamic leadership of its MD Mr. Daya Shankar
+                        Mishra, who is also a partner of the company and actively involved all- round company affaires. OTEGEN
+                        GLOBAL INCORPORATION has at their command a large team of sales Personnel also to promote their products
                         at all places.
                     </p>
                 </div>
@@ -245,7 +255,6 @@
         </div>
     </div>
     <!--End of modal Content-->
-
     <!-- Container (Contact Section) -->
     <div id="contact" class="contact container-fluid">
         <h2 style="margin-left:540px; font-family: 'Tangerine', serif; font-size: 72px; text-shadow: 4px 4px 4px #aaa; color: #303030;">Contact</h2>
@@ -288,7 +297,7 @@
     </div>
 
     <div id="googleMap" style="height:400px;width:80%; margin-left:150px;"></div>
-    
+
     <!-- Add Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjzCxu531Gfu9wrp8gKIJTCWaWec1vTts&callback=initmap"></script>
     <script>
