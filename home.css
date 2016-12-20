@@ -86,9 +86,16 @@ h4 {
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
-            border-top-color: #fff;
-            border-bottom-color: #fff;
-        }
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #f4511e;
+    background-color: rgb(9, 136, 136);
+}
 
 .jumbotron {
     background-color: #338386;
@@ -236,7 +243,7 @@ footer {
 
 #myNavbar {
     font-family: 'High Tower Text';
-    width:1140px;
+    width: 1140px;
 }
 
 .caret-up {
