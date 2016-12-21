@@ -27,7 +27,6 @@
     line-height: 1.42857143 !important;
     letter-spacing: 1px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif;
 }
 
     .nav li a, .navbar .navbar-brand {
@@ -60,11 +59,6 @@
     background-color: teal;
 }
 
-#myNavbar {
-    font-family: 'High Tower Text';
-    width: 1140px;
-}
-
 .caret-up {
     width: 0;
     height: 0;
@@ -84,7 +78,7 @@ footer {
     footer .glyphicon {
         font-size: 20px;
         margin-bottom: 20px;
-        color: #098888;
+        color: #141339;
     }
 
 .slideanim {
