@@ -16,7 +16,7 @@
     <link href="../css/otegen.css" rel="stylesheet" />
     <style>
         body {
-            background: url('../images/bck7.jpg') no-repeat fixed;
+            background: url('../images/research-and-development.jpg') no-repeat fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -78,6 +78,20 @@
             text-align: left;
             width: 800px;
         }
+        
+        .glyph{
+           height:5em;
+           width:5em;           
+           border-radius:50%;
+           border:3px solid teal;
+           background-color: teal;
+        }
+        
+        .glyphicon-chevron-up{
+            margin-top: 10px;
+            margin-left: 2px;
+            color: white;
+        }
     </style>
 
 </head>
@@ -94,7 +108,7 @@
                     Otegen
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="collapqse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right navbar-main-collapse">
                     <li><a href="Home.html">HOME</a></li>
                     <li class="dropdown" style="color:teal;">
@@ -177,9 +191,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <a href="#mypage2" title="To Top">
-                    <span class="glyphicon glyphicon-chevron-up"></span>
+                   <span class="glyph"><span class="glyphicon glyphicon-chevron-up"></span></span> 
                 </a>
-                <h5 align="center" style="font-family:Roboto; color:#fff; font-weight:400; font-size:18px;">Copyright &copy; Otegen Health Services  </h5>
+                <h5 align="center" style="font-family:Roboto; color:#000; font-weight:400; font-size:18px;">Copyright &copy; Otegen Health Services  </h5>
                 <div class="social-network social-circle" align="center">
                     <a href="www.linkedin.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                     <!--<a href="www.twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>-->
@@ -217,7 +231,7 @@
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
-                        scrollTop: $(hash).offset().top
+                        scrollTop: 0
                     }, 900, function () {
 
                         // Add hash (#) to URL when done scrolling (default click behavior)
