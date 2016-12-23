@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -19,7 +19,65 @@
             font-size: 48px;
             text-shadow: 4px 4px 4px #aaa;
         }
+        
+            <style>
+        body {
+            background: url('../images/') no-repeat fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            line-height: 1.8;
+        }
+        
+        .table, td{
+            margin: 100px auto;
+            width: 1300px;
+            height: 70px;
+        }
+        
+        .table>tbody>tr>td, 
+        .table>tbody>tr>th, 
+        .table>tfoot>tr>td, 
+        .table>tfoot>tr>th, 
+        .table>thead>tr>td, 
+        .table>thead>tr>th {
+            padding: 8px;
+            line-height: 1.42857143;
+            vertical-align:middle;
+            border: 0px solid #ddd;
+            border-bottom: 3px solid #ddd;
+        }
+        
+       .table-bordered>tbody>tr:nth-child(odd)>th {
+            padding: 15px;
+            height: 50px;
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+        
+        .table-bordered>tbody>tr:nth-child(odd)>td {
+            background-color: #074b8a;
+            color: white;
+        }
+            
+        #report div.arrow { background:transparent url(arrows.png) no-repeat scroll 0px -16px; width:16px; height:16px; display:block;}
+        #report div.up { background-position:0px 0px;}
     </style>
+    
+    <script type="text/javascript">  
+        $(document).ready(function(){
+            //$("#report tr:odd").addClass("odd");
+            $("#report tr:not(.odd)").hide();
+            $("#report tr:first-child").show();
+            
+            $("#report tr.odd").click(function(){
+                $(this).next("tr").toggle();
+                $(this).find(".arrow").toggleClass("up");
+            });
+            //$("#report").jExpand();
+        });
+    </script> 
 </head>
 <body>
     <h3>Demo example</h3>
@@ -31,6 +89,57 @@
         </div>
     </div>
     <div class="font-effect-canvas-print" style="font-size:72px;"> This is a font effect!</div>-->
+    
+    <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover" id="report">
+                <tr>
+                    <th>S.No.</th>
+                    <th>Product Name</th>
+                    <th>Indications</th>
+                    <th style="width:10px;"></th>
+                </tr>
+                <tr class="odd">
+                    <td>01</td>
+                    <td>ZOR CAPSULES</td>
+                    <td>MID REJUVENATOR.<br/>
+                        Relive from midage problems, multiple cell and tissue regenerator.
+                     <td style="width:10px;"><div class="arrow"></div></td>
+                </tr>
+                <tr>
+                    <td colspan=4>Ankit is 25 years old and he is a computer programmer he earns 60000 per month</td>
+                </tr>
+                <tr class="odd">
+                    <td>02</td>
+                    <td>LOTENS CAPSULES</td>
+                    <td>FOR TENSION AND ANXIETY, ANIXIOLYTIC.<br/>
+                        Offers a soothing effect, less sedation.
+                    <td style="width:10px;"><div class="arrow"></div></td>
+                </tr>
+                <tr>
+                    <td colspan=4>Ankit is 25 years old and he is a computer programmer he earns 60000 per month</td>
+                </tr>
+                <tr class="odd">
+                    <td>03</td>
+                    <td>OBFIT CAPSULES</td>
+                    <td>FIT THE FAT. FAT BURNER.<br/>
+                        Effective reduction of Fat and body weight.</td>
+                    <td style="width:10px;"><div class="arrow"></div></td>
+                </tr>
+                <tr>
+                    <td colspan=4>Ankit is 25 years old and he is a computer programmer he earns 60000 per month</td>
+                </tr>
+                <tr class="odd">
+                    <td>04</td>
+                    <td>TESTO CAPSULES</td>
+                    <td>COMBAT INFERTILITY.<br/>
+                        Improve spermetogenesis.</td>
+                    <td style="width:10px;"><div class="arrow"></div></td>
+                </tr>
+                <tr>
+                    <td colspan=4>Ankit is 25 years old and he is a computer programmer he earns 60000 per month</td>
+                </tr>
+        </table>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
