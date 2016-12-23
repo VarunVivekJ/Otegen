@@ -1,0 +1,90 @@
+body {
+    background: url('../images/bck.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    line-height: 1.8;
+}
+
+
+#heading {
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#body {
+    background-color: #000;
+    height: 4500px;
+    width: 1180px;
+    margin-top: 80px;
+    opacity: 0.8;
+    border-radius: 15px;
+    align-content: center;
+/*    overflow-y:scroll;
+    overflow-x: hidden;*/
+}
+
+.content p{
+    color: teal;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: Cabin Sketch;
+    font-size: 22px;
+    font-weight: bold;
+    list-style-type:decimal;
+}
+
+.content ul li{
+    color: teal;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: Cabin Sketch;
+    font-size: 22px;
+    font-weight: bold;
+    list-style-type:decimal;
+}
+
+.content ul li h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-family: Glass Antiqua;
+    font-size: 22px;
+    margin:10px 15px 0px 20px;
+}
+
+.content h5 {
+    color: #fff;
+    font-family: Glass Antiqua;
+    font-size: 20px;
+    margin: -10px 0;
+    margin-left: 30px;
+    margin:10px 15px 0px 20px;
+}
+
+
+.designby {
+    height: 30px;
+}
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
+
+.glyph{
+    height:5em;
+    width:5em;           
+    border-radius:50%;
+    border:3px solid teal;
+    background-color: teal;
+}
+
+.glyphicon-chevron-up{
+    margin-top: 10px;
+    margin-left: 2px;
+    color: white;
+}
