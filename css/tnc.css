@@ -7,17 +7,15 @@ body {
 }
 
 
-#heading {
-    font-size: 72px;
+.panel-heading {
+    font-size: 56px;
     text-align: center;
     color: #fff;
-    border-radius: 15px;
+    
 }
 
-#body {
+.panel {
     background-color: #000;
-/*    height: 600px;*/
-    width: 1180px;
     margin-top: 100px;
     opacity: 0.8;
     border-radius: 15px;
@@ -26,7 +24,7 @@ body {
 
 
 
-.content p{
+.panel-body p{
     color: teal;
     margin-left: 20px;
     margin-top: 30px;
@@ -36,7 +34,7 @@ body {
     list-style-type:decimal;
 }
 
-.content ul li{
+.panel-body ul li{
     color: teal;
     margin-left: 20px;
     margin-top: 0px;
@@ -46,7 +44,7 @@ body {
     list-style-type:decimal;
 }
 
-.content ul li h2{
+.panel-body ul li h2{
     color: white;
     margin-left: 10px;
     margin-top: -10px;
@@ -55,7 +53,7 @@ body {
     margin:10px 15px 0px 20px;
 }
 
-.content h5 {
+.panel-body h5 {
     color: #fff;
     font-family: Glass Antiqua;
     font-size: 20px;
