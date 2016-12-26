@@ -1,4 +1,4 @@
-body {
+ body {
     background: url('../images/medicine.jpeg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -6,24 +6,62 @@ body {
     line-height: 1.8;
 }
 
-
+#body{
+    margin-top: 60px;
+}
+        
 #heading {
+    color: teal;
     font-size: 72px;
     text-align: center;
-    color: #fff;
-    border-radius: 15px;
 }
-
-#body {
-    background-color: #000;
-    height: 4500px;
-    width: 1180px;
-    margin-top: 80px;
-    opacity: 0.8;
-    border-radius: 15px;
-    align-content: center;
+        
+.content{
+    margin-left: 80px;
+    margin-right: 80px;
 }
-
+        
+.content h5 {
+    color: #000;
+    font-family: Glass Antiqua;
+    font-size: 20px;
+}
+        
 .designby {
     height: 30px;
+}
+    
+.table, td{
+    margin: 0px auto;
+    width: 900px;
+    height: 70px;
+    border: 2px solid black;
+}
+        
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    background-color: beige;
+    opacity: 0.8;
+    vertical-align: middle;
+    font-weight: 700;
+    line-height: 1.42857143;
+    border: 0px solid #ddd;
+}
+        
+.table>tbody>tr>td{
+/*        border: 1px solid #ddd;*/
+}
+        
+.table-bordered>tbody>tr:nth-child(odd)>th {
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+        
+.table-bordered>tbody>tr:nth-child(odd)>td {
+    background-color: white;   
+    color: black;
 }
