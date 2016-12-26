@@ -24,9 +24,7 @@ body {
     align-content: center;
 }
 
-
-
-.content p{
+/*.content p{
     color: teal;
     margin-left: 20px;
     margin-top: 30px;
@@ -34,7 +32,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     list-style-type:decimal;
-}
+}*/
 
 .content ul li{
     color: teal;
