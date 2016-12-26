@@ -30,8 +30,7 @@ body {
 }
 
 .jumbotron {
-    background-color: #338386;
-    color: #fff;
+   background-color: transparent;
     padding: 80px 25px;
     font-family: Montserrat, sans-serif;
 }
