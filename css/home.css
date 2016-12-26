@@ -1,4 +1,4 @@
-﻿body {
+body {
     background: url('../images/bck.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -12,9 +12,7 @@
     background-color: #f6f6f6;
 }
 
-#myNavbar {
-    width: 1140px;
-}
+
 /*-------------------------------------------------About Section------------------------------------------------------------*/
 #about h2 {
     font-family: 'Tangerine', serif;
@@ -29,10 +27,6 @@
     font-size: 20px;
     color: #303030;
     margin-bottom: 30px;
-}
-
-.container-fluid {
-    padding: 30px 50px;
 }
 
 .jumbotron {
