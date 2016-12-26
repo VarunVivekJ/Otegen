@@ -16,8 +16,8 @@ body {
 
 #body {
     background-color: #000;
-    height: 4500px;
-    width: 1180px;
+    <!--height: 4500px;
+    width: 1180px;-->
     margin-top: 80px;
     opacity: 0.8;
     border-radius: 15px;

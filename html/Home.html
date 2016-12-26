@@ -16,24 +16,21 @@
     <style>
     </style>
 </head>
-<body id="myPage" data-target=".navbar" data-offset="60">
+<body>
 
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle Naviagtion </span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#myPage">
-                    Otegen
-                </a>
+                <a class="navbar-brand" href="#myPage">Otegen</a>
             </div>
-
+            
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown" style="color:teal;">
                         <a href="#about" class="dropdown-toggle" data-toggle="dropdown">ABOUT <b class="caret"></b></a>
                         <ul class="dropdown-menu" id="dropmenu" role="menu">
@@ -42,36 +39,36 @@
                             <li><a href="#Portfolio">Management</a></li>
                         </ul>
                     </li>
-                    <li><a href="Research.html">RESEARCH AND DEVELOPMENT</a></li>
-
+                    <li><a href="Research.html">RESEARCH & DEVELOPMENT</a></li>
                     <li class="dropdown" style="color:teal;">
-                        <a href="#about" class="dropdown-toggle" data-toggle="dropdown">OUR PRODUCTS <b class="caret red"></b></a>
-                        <ul class="dropdown-menu" id="dropmenu">
-                            <li><a href="#">Ayurvedic Medicines/Dietary Supplement</a></li>
-                            <li><a href="#">Single Herbs</a></li>
-                            <li><a href="#">Other Products</a></li>
-                        </ul>
+                    <a href="#about" class="dropdown-toggle" data-toggle="dropdown">PRODUCTS<b class="caret red"></b></a>
+                    <ul class="dropdown-menu" id="dropmenu">
+                    <li><a href="#">Ayurvedic Medicines/Dietary Supplement</a></li>
+                    <li><a href="#">Single Herbs</a></li>
+                    <li><a href="#">Other Products</a></li></ul>
                     </li>
-
-                    <li><a href="TNC.html">TERMS AND CONDITIONS</a></li>
+                    <li><a href="TNC.html">TERMS & CONDITIONS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
-                </ul>
-                <div class="col-sm-2 col-md-2">
-                    <form action="#myPage" class="navbar-form" role="search" method="get">
+                               
+            
+                    <form class="navbar-form navbar-right">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <input type="text" class="form-control" placeholder="Search">
                             <div class="input-group-btn">
-                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
                             </div>
                         </div>
-                    </form>
-                </div>
+                    </form> 
+                </ul>
             </div>
-        </div>
+        </div>    
     </nav>
+    <br /><br /> <br />
 
     <div class="jumbotron text-center">
-        <img src="http://www.otegen.com/wp-content/uploads/2014/01/logo-0.png" style="width: 225px">
+        <img src="http://www.otegen.com/wp-content/uploads/2014/01/logo-0.png" style="width: 225px;">
         <h3>Health and Wellness is what we promise!</h3>
         Find out how we can help you take control of your health and wellness. Let’s get started today<br />
         <div> <br /><a href="#contact" class="btn btn-danger">Franchisee Request</a> </div>
@@ -101,6 +98,7 @@
             </div>
         </div>
     </div>
+    <br />
 
     <div id="myCarousel" class="carousel fade text-center" data-ride="carousel" data-interval="1600">
         <!-- Indicators -->
@@ -214,7 +212,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dissmiss="#modal-1">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -235,7 +233,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dissmiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -258,7 +256,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dissmiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
