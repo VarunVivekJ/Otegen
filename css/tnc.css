@@ -16,15 +16,15 @@ body {
 
 #body {
     background-color: #000;
-    <!--height: 4500px;
-    width: 1180px;-->
-    margin-top: 80px;
+/*    height: 600px;*/
+    width: 1180px;
+    margin-top: 100px;
     opacity: 0.8;
     border-radius: 15px;
     align-content: center;
-/*    overflow-y:scroll;
-    overflow-x: hidden;*/
 }
+
+
 
 .content p{
     color: teal;

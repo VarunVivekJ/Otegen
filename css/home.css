@@ -40,6 +40,12 @@ body {
     background-color: teal;
     border-color: teal;
 }
+
+#extra{
+    background-color: #338386;
+    color: #338386;
+    margin-top:50px;
+}
 /*--------------------------------------------------Carousel Effect-----------------------------------------------------------------*/
 .carousel-control.right, .carousel-control.left {
     background-image: none;
