@@ -135,6 +135,10 @@ footer {
     }
 }
 
+@media (max-width: @screen-min) {
+  .modal { width: @modal-xs; }
+}
+
 
 .social-network a.icoFacebook:hover i,
 .social-network a.icoInstagram:hover i,
