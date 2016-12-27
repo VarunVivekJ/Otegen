@@ -23,33 +23,29 @@
             line-height: 1.8;
         }
 
-        #heading {
+        .panel-heading {
             font-size: 72px;
             text-align: center;
             color: #fff;
-            border-radius: 15px;
         }
 
-        #body {
+        .panel {
             background-color: #000;
-            height: 950px;
-            width: 1180px;
             margin-top: 150px;
             opacity: 0.8;
             border-radius: 15px;
             align-content: center;
         }
 
-        .content p, .content h2 {
+        .panel-body p, .panel-body h2 {
             color: teal;
             margin-left: 20px;
-            margin-top: 30px;
             font-family: Cabin Sketch;
             font-size: 22px;
             font-weight: bold;
         }
 
-        .content h5 {
+        .panel-body h5 {
             color: #fff;
             font-family: Glass Antiqua;
             font-size: 20px;
@@ -57,7 +53,7 @@
             margin-left: 30px;
         }
 
-        .content ul li {
+        .panel-body ul li {
             color: #fff;
             font-family: Glass Antiqua;
             font-size: 20px;
@@ -115,8 +111,8 @@
                     <li class="dropdown" style="color:teal;">
                         <a href="#about" class="dropdown-toggle" data-toggle="dropdown">OUR PRODUCTS <b class="caret"></b></a>
                         <ul class="dropdown-menu" id="dropmenu">
-                            <li><a href="#">Ayurvedic Medicines/Dietary Supplement</a></li>
-                            <li><a href="#">Single Herbs</a></li>
+                            <li><a href="Ayurvedic.html">Ayurvedic Medicines/Dietary Supplement</a></li>
+                            <li><a href="SingleHerbs.html">Single Herbs</a></li>
                             <li><a href="#">Other Products</a></li>
                         </ul>
                     </li>                    
@@ -138,52 +134,54 @@
         </div>
     </nav>
     
-    <div id="body" class="centered">
-        <div class="container-fluid" style="background-color:gray; border-radius:15px 15px 0 0;">
-            <div class="font-effect-canvas-print" id="heading"> Research And Development</div>
-        </div>
-        <div class="content">
-            <p>Otegen Strictly follows GMP norms. The basic on premise in which OTEGEN’s R & D activity is on, are as follow:</p>
-            <ul style="list-style-type: none;">
-                <li><i class="glyphicon glyphicon-ok"></i> Authenticity and quality of raw materials.</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Manufacturing standards as per GMP</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Quality Control of the manufactured drug</li>
-                <li><i class="glyphicon glyphicon-ok"></i> Lot of emphasis on hygiene, equipments and documentation etc.</li>
-            </ul>
+<!--    <div id="body" class="centered">-->
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading font-effect-canvas-print"> Research And Development</div>        
+            <div class="panel-body">
+                <p>Otegen Strictly follows GMP norms. The basic on premise in which OTEGEN’s R & D activity is on, are as follow:</p>
+                <ul style="list-style-type: none;">
+                    <li><i class="glyphicon glyphicon-ok"></i> Authenticity and quality of raw materials.</li>
+                    <li><i class="glyphicon glyphicon-ok"></i> Manufacturing standards as per GMP</li>
+                    <li><i class="glyphicon glyphicon-ok"></i> Quality Control of the manufactured drug</li>
+                    <li><i class="glyphicon glyphicon-ok"></i> Lot of emphasis on hygiene, equipments and documentation etc.</li>
+                </ul>
 
-            <p>As per the Global GMP norms, OTEGEN is continuously working on the R & D improvement, specially at the level of:</p>
-            <h5>
-                Raw material, Excipients, packing material, intermediate product, finished products and its stability and
-                microbiological testing.
-            </h5><br />
-            <h5>
-                OTEGEN R & D equipped with all the major instruments and analytical equipments to undertake the following in house testing
-                and analysis at different stages.
-            </h5>
-            <h2>Raw Materials</h2>
-            <ul style="list-style-type:none">
-                <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Raw material analysis.</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Identification of foreign material.</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Extractive value of water and extractive Alcohol Soluble ingredients.</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Ash Values Acid insoluble Ash content</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Estimation of volatile oil. And PH Value</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Moisture Content.
-            </ul>
-            <h2>Finished Products</h2>
-            <ul style="list-style-type:none">
-                <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Uniformity of the weight of the Capsule.</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Total ash conent.</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Acid insoluble Ash</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Alcohol and water extractive value</li>
-                <li><i class="glyphicon glyphicon-plus-sign"></i> Disintegration time of the Cap.</li>.
-            </ul>
-            <h5>
-                <span style="font-family: Cabin Sketch; color:teal;">Micro</span> – biological and fungal testing done of the raw material and finished products.
-            </h5><br />
-            <h5>
-                Otegen Global Incorporation R & D is fully equipped with the latest equipment like Incubator, Autoclave, TLC Kit, Oven,
-                Bulk density, Muffle Furnace, Moisture Balance, PH meter and B.O.D to name of few.
-            </h5>
+                <p>As per the Global GMP norms, OTEGEN is continuously working on the R & D improvement, specially at the level of:</p>
+                <h5>
+                    Raw material, Excipients, packing material, intermediate product, finished products and its stability and
+                    microbiological testing.
+                </h5>
+                <br />
+                <h5>
+                    OTEGEN R & D equipped with all the major instruments and analytical equipments to undertake the following in house testing
+                    and analysis at different stages.
+                </h5>
+                <h2>Raw Materials</h2>
+                <ul style="list-style-type:none">
+                    <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Raw material analysis.</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Identification of foreign material.</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Extractive value of water and extractive Alcohol Soluble ingredients.</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Ash Values Acid insoluble Ash content</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Estimation of volatile oil. And PH Value</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Moisture Content.
+                </ul>
+                <h2>Finished Products</h2>
+                <ul style="list-style-type:none">
+                    <li><i class="glyphicon glyphicon-plus-sign" style="height:1px;"></i> Uniformity of the weight of the Capsule.</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Total ash conent.</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Acid insoluble Ash</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Alcohol and water extractive value</li>
+                    <li><i class="glyphicon glyphicon-plus-sign"></i> Disintegration time of the Cap.</li>.
+                </ul>
+                <h5>
+                    <span style="font-family: Cabin Sketch; color:teal;">Micro</span> – biological and fungal testing done of the raw material and finished products.
+                </h5><br />
+                <h5>
+                    Otegen Global Incorporation R & D is fully equipped with the latest equipment like Incubator, Autoclave, TLC Kit, Oven,
+                    Bulk density, Muffle Furnace, Moisture Balance, PH meter and B.O.D to name of few.
+                </h5>
+            </div>
         </div>
     </div>
 
@@ -269,4 +267,4 @@
         });
     </script>
 </body>
-</html>-->
+</html>
