@@ -30,10 +30,14 @@
 .designby {
     height: 30px;
 }
+
+.table{
+    width: 70%;
+}
     
 .table, td{
     margin: 0px auto;
-    width: 900px;
+/*    width: 900px;*/
     height: 70px;
     border: 2px solid black;
 }
