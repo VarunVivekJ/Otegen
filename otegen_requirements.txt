@@ -1,0 +1,12 @@
+1. Fix map - No zooming.
+2. Footer changes - Add quick links for navigation bar.
+3. Front page Jumbotron extended to full screen.
+4. Make container-fluid as container.
+5. Keep font similar for all pages.
+6. Change the theme color and add contrast color acc to nav bar.
+7. Research and development remove opacity.
+8. T&C remove Opacity.
+9. Get in touch button at center.
+10. Products page finalise design.
+11. Add dropdown for products in nav bar on PRODUCT page.
+12. Change research tab to R&D and terms to T&C.
