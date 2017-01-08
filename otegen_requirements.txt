@@ -1,14 +1,14 @@
 Jobs To Be Done:
 
-1. Fix map - No zooming.
+1. Fix map - No zooming.(partially fixed left side, right side needs to be fixed)
+
 2. Footer changes - Add quick links for navigation bar.
-3. Front page Jumbotron extended to full screen.
-4. Make container-fluid as container.
-5. Keep font similar for all pages.
+
 6. Change the theme color and add contrast color acc to nav bar.
-9. Get in touch button at center.
+
 10. Products page finalise design.
-13. Carousel in container-fluid.
+
+14. need to add a layer of color in jumbotron as a background color of the text so the text is visible.
 
 Jobs Done:
 
@@ -16,3 +16,8 @@ Jobs Done:
 12. Change research tab to R&D and terms to T&C.
 7. Research and development remove opacity.
 8. T&C remove Opacity.
+13. Carousel in container-fluid.
+4. Make container-fluid as container.
+9. Get in touch button at center.
+3. Front page Jumbotron extended to full screen.
+5. Keep font similar for all pages.

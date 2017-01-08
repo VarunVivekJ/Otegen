@@ -15,7 +15,7 @@ body {
 
 /*-------------------------------------------------About Section------------------------------------------------------------*/
 #about h2 {
-    font-family: 'Tangerine', serif;
+    font-family: Lato, sans-serif;
     font-size: 48px;
     text-shadow: 4px 4px 4px #aaa;
     color: #303030;
@@ -23,7 +23,7 @@ body {
 }
 
 #about p {
-    font-family: 'Mirza', Roboto;
+    font-family: Lato, sans-serif;
     font-size: 20px;
     color: #303030;
     margin-bottom: 30px;
@@ -31,8 +31,14 @@ body {
 
 .jumbotron {
    background-color: #338386;
+    background: url("../images/ayur.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     padding: 80px 25px;
-    font-family: Montserrat, sans-serif;
+    font-family: Lato, sans-serif;
+    background-size: contain;
+    padding-top: 230px;
 }
 
 .touch {
@@ -41,11 +47,7 @@ body {
     border-color: teal;
 }
 
-#extra{
-    background-color: #338386;
-    color: #338386;
-    margin-top:50px;
-}
+
 /*--------------------------------------------------Carousel Effect-----------------------------------------------------------------*/
 .carousel-control.right, .carousel-control.left {
     background-image: none;

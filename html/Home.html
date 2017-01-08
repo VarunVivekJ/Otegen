@@ -14,6 +14,14 @@
     <link href="../css/otegen.css" rel="stylesheet" />
     <link href="../css/home.css" rel="stylesheet" />
     <style>
+        .overlay {
+   background:transparent; 
+   position:relative;
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
     </style>
 </head>
 <body>
@@ -69,8 +77,7 @@
         </div>    
     </nav>
 <!--    <br /><br /> <br />-->
-<div class="container-fluid" id="extra">invisible line</div>
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center" style="height: 720px;">
         <img src="http://www.otegen.com/wp-content/uploads/2014/01/logo-0.png" style="width: 225px;">
         <h3>Health and Wellness is what we promise!</h3>
         Find out how we can help you take control of your health and wellness. Let’s get started today<br />
@@ -78,7 +85,7 @@
     </div>
 
     <!-- Container (About Section) -->
-    <div id="about" class="container-fluid">
+    <div id="about" class="container">
         <div class="row">
             <div class="col-sm-10">
                 <h2>About   Company</h2><br>
@@ -103,6 +110,7 @@
     </div>
     <br />
 
+    <div class="container-fluid">
     <div id="myCarousel" class="carousel fade text-center" data-ride="carousel" data-interval="1600">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -119,33 +127,33 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Liplo Cap.jpg"></center>
+                <center><img src="../images/Liplo%20Cap.jpg"  width="1600" height="700"></center>
             </div>
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Lotens.jpg"></center>
+                <center><img src="../images/Lotens.jpg" width="1600" height="700"></center>
             </div>
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Otezyme.jpg"></center>
-            </div>
-
-            <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Satisfaction.jpg"></center>
+                <center><img src="../images/Otezyme.jpg" width="1600" height="700"></center>
             </div>
 
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Evece.jpg"></center>
+                <center><img src="../images/Satisfaction.jpg" width="1600" height="700"></center>
             </div>
 
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Ote Cough syp.jpg"></center>
+                <center><img src="../images/Evece.jpg" width="1600" height="700"></center>
             </div>
 
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Otehist.jpg"></center>
+                <center><img src="../images/Ote%20Cough%20syp.jpg" width="1600" height="700"></center>
             </div>
 
             <div class="item">
-                <center><img src="http://www.otegen.com/wp-content/uploads/2013/08/Yakrit Drops.jpg"></center>
+                <center><img src="../images/Otehist.jpg" width="1600" height="700"></center>
+            </div>
+
+            <div class="item">
+                <center><img src="../images/Yakrit%20Drops.jpg" width="1600" height="700"></center>
             </div>
         </div>
 
@@ -158,10 +166,11 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+    </div>
     </div><br />
 
     <!-- Container (Mission Section) -->
-    <div class="container-fluid text-center" id="Portfolio">
+    <div class="container text-center" id="Portfolio">
         <h2>Our Vision</h2>
         
         <div class="row text-center slideanim">
@@ -267,7 +276,7 @@
     <!--End of modal Content-->
     
     <!-- Container (Contact Section) -->
-    <div id="contact" class="contact container-fluid">
+    <div id="contact" class="contact container">
         <h2 class="text-center" style="font-family: 'Tangerine', serif; font-size: 72px; text-shadow: 4px 4px 4px #aaa; color: #303030;">Contact</h2>
         <br />
         <div class="row">
@@ -308,12 +317,10 @@
     </div>
 
     <!-- Add Google Maps -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+    <div class="container-fluid">
+        <div class="overlay" onClick="style.pointerEvents='none' "></div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28012.64676944089!2d77.242662!3d28.642322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfcd8c5b9c251%3A0xd256ea24b51c0d33!2sBharat+Ram+Rd%2C+Dariya+Ganj%2C+New+Delhi%2C+Delhi+110002%2C+India!5e0!3m2!1sen!2sus!4v1482225068318" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-        </div>
+            
     </div>
 
     <!-- Container (Footer Section) -->
