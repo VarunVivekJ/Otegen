@@ -174,3 +174,14 @@ footer {
 .designby {
     height: 30px;
 }
+
+.page-loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	background: #FFF url("http://www.bentfurn.in/images/loading.gif") center center no-repeat;
+    /*../img/page-loader.gif*/
+}

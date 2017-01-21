@@ -25,7 +25,9 @@
     </style>
 </head>
 <body>
-
+    
+    <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+    
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -389,6 +391,12 @@
                 });
             });
         })
+        
+        // Wait for window load
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".page-loader").fadeOut("slow");
+        });
 
         $(function () {
             $(".dropdown").hover(
